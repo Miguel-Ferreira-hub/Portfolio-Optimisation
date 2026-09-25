@@ -164,7 +164,7 @@ end = dt.datetime.now()
 start = end - dt.timedelta(days=2*365)
 interval = '1d'
 
-# First 100 tickers of S&P500
+# First 100 Tickers of S&P500
 tickers = [
     "MMM", "AOS", "ABT", "ABBV", "ACN", "ADBE", "AMD", "AES", "AFL", "A",
     "APD", "ABNB", "AKAM", "ALB", "ARE", "ALGN", "ALLE", "LNT", "ALL", "GOOGL",
@@ -178,7 +178,7 @@ tickers = [
     "CBRE", "CDW", "COR", "CNC", "CNP", "CF", "CRL", "SCHW", "CHTR", "CVX"
 ]
 
-# Collection of random equities and bonds
+# Collection of Random Equities and Bonds
 # tickers = [
 #     # =========================
 #     # Equities
@@ -229,7 +229,7 @@ tickers = [
 #     "VGIT"    # Intermediate-Term Treasury
 # ]
 
-# Portfolio consisting of many diversified assets
+# Many Different Assets
 # tickers = [
 #     # ============================================================
 #     # 100 EQUITIES
