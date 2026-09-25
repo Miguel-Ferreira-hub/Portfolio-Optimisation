@@ -5,5 +5,5 @@
 </p>
 
 <p align="center">
-  <img src="Images/portfolio_paths.png" alt="Logo" width="900">
+  <img src="Images/portfolio_paths.png" alt="Logo">
 </p>
