@@ -1,9 +1,13 @@
 
 ## Portfolio Optimisation
 
-### 1. Expected Portfolio Return
+<p align="center">
+  <img src="Images/efficient_frontier.png" alt="Logo">
+</p>
 
-Let \(w \in \mathbb{R}^n\) denote the vector of portfolio weights and \(\mu \in \mathbb{R}^n\) the vector of expected asset returns.
+The following procedure is conducted to produce the optimised portfolios:
+
+### 1. Expected Portfolio Return
 
 The expected portfolio return is:
 
@@ -146,11 +150,6 @@ The optimisation procedure is:
 6. Calculate the resulting expected return, volatility and Sharpe ratio.
 
 The resulting portfolios can be compared in risk-return space and used to construct the efficient frontier, illustrating the trade-off between expected return and portfolio risk.
-
-
-<p align="center">
-  <img src="Images/efficient_frontier.png" alt="Logo">
-</p>
 
 <h1 align="center">Theoretical Paths</h1>
 
