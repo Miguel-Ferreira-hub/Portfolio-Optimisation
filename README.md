@@ -73,7 +73,7 @@ Where $w_{\max}$ is set to a maximum of 15% capital allocation to mitigate extre
 
 #### 4.1 Maximum Sharpe Ratio
 
-Let $r_f$ be the risk-free rate.
+Let $r_f$ be the risk-free rate. The Sharpe ratio is given by:
 
 $$
 S(\boldsymbol{w}) =
