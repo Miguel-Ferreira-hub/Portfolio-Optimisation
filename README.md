@@ -4,7 +4,7 @@
 <p align="center">
   <img src="Images/efficient_frontier.png" alt="Logo">
   <br>
-  </b> Resulting portfolios visualised in expected returns - risk space. Optimisation is performed on three different objective functions; minimum variance, maximum returns and maximum Sharpe ratio, following the procedure outlined below on various U.S equities. Each objective presents a convex function to optimised, solved using Sequential Least Squares Programming (SLSQP) methods within Python.
+  </b> Resulting portfolios visualised in expected returns - risk space. Optimisation is performed on three different objective functions; minimum variance, maximum returns and maximum Sharpe ratio, following the procedure outlined below on various U.S. equities. Each objective presents a convex function to optimised, solved using Sequential Least Squares Programming (SLSQP) methods within Python.
 </p>
 
 ### 1. Expected Portfolio Return
