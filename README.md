@@ -67,7 +67,7 @@ $$
 \qquad \forall i
 $$
 
-Where $w_{\max}$ is set to a maximum of 10% capital allocation to mitigate extreme allocations to one asset.
+Where $w_{\max}$ is set to a maximum of 15% capital allocation to mitigate extreme allocations to one asset.
 
 ### 4. Portfolio Optimisation Objectives
 
