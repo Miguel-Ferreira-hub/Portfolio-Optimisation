@@ -58,24 +58,18 @@ $$
 
 ### 3. Portfolio Optimisation Objectives
 
-Let \(r_f\) denote the annualised risk-free rate. Portfolio weights are subject to the constraints:
+Let \(r_f\) denote the annualised risk-free rate. Portfolio weights are subject to the following constraints:
 
 $$
 \sum_{i=1}^{n} w_i = 1
 $$
-
-and, for a long-only portfolio with maximum allocation \(w_{\max}\),
 
 $$
 0 \leq w_i \leq w_{\max}
 \qquad \forall i
 $$
 
-These constraints ensure that the portfolio is fully invested, with no short selling and a maximum allocation per asset.
-
 #### 3.1 Maximum Sharpe Ratio
-
-The Sharpe ratio measures excess return per unit of portfolio volatility:
 
 $$
 S(\boldsymbol{w}) =
@@ -108,10 +102,6 @@ $$
 \boldsymbol{\Sigma}\boldsymbol{w}
 }
 $$
-
-subject to the portfolio constraints.
-
-This portfolio focuses exclusively on risk minimisation and does not directly optimise expected return. It is useful when the primary objective is to construct the least volatile portfolio within the permitted investment universe.
 
 #### 3.3 Maximum Expected Return
 
