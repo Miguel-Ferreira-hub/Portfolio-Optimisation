@@ -4,7 +4,7 @@
 <p align="center">
   <img src="Images/efficient_frontier.png" alt="Logo">
   <br>
-  </b> Resulting portfolios visualised in expected returns - risk space. Optimisation is performed on three different objective functions; minimum variance, maximum returns and maximum Sharpe ratio following the procedure below on various U.S equities.
+  </b> Resulting portfolios visualised in expected returns - risk space. Optimisation is performed on three different objective functions; minimum variance, maximum returns and maximum Sharpe ratio, following the procedure below on various U.S equities.
 </p>
 
 ### 1. Expected Portfolio Return
