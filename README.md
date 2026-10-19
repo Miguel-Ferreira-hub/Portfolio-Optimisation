@@ -33,7 +33,7 @@ assuming 252 trading days per year.
 
 ### 2. Portfolio Variance and Volatility
 
-Let $\Sigma \in \mathbb{R}^{n \times n}$ be the covariance matrix of asset returns. Portfolio variance is:
+Let $\Sigma$ be the covariance matrix of asset returns. Portfolio variance is:
 
 $$
 \sigma_p^2 = \boldsymbol{w}^\top
