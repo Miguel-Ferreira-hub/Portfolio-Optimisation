@@ -73,7 +73,7 @@ $w_{\max}$ here is set to a maximum of 10% capital allocation to mitigate extrem
 
 #### 4.1 Maximum Sharpe Ratio
 
-Let $\r_f$ be the risk-free rate.
+Let $r_f$ be the risk-free rate.
 
 $$
 S(\boldsymbol{w}) =
