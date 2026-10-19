@@ -54,9 +54,9 @@ $$
 = 252 \cdot \boldsymbol{\Sigma}_{\text{daily}}
 $$
 
-### 3. Portfolio Optimisation Objectives
+### 3. Portfolio Optimisation Constraints
 
-Let \(r_f\) denote the annualised risk-free rate. Portfolio weights are subject to the following constraints:
+Portfolio weights are subject to the following constraints:
 
 $$
 \sum_{i=1}^{n} w_i = 1
@@ -66,6 +66,10 @@ $$
 0 \leq w_i \leq w_{\max}
 \qquad \forall i
 $$
+
+$\leq w_{\max}$ here is set to a maximum of 10% capital allocation to mitigate extreme allocation to one asset.
+
+### 3. Portfolio Optimisation Objectives
 
 #### 3.1 Maximum Sharpe Ratio
 
@@ -101,6 +105,8 @@ $$
 }
 $$
 
+This objective prioritises the minimisation of portfolio risk rather than higher returns.
+
 #### 3.3 Maximum Expected Return
 
 The maximum expected return portfolio solves:
@@ -111,6 +117,8 @@ $$
 \boldsymbol{w}^\top\boldsymbol{\mu}
 }
 $$
+
+This objective aims to find the weights that maximise expected returns.
 
 <h1 align="center">Theoretical Paths</h1>
 
