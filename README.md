@@ -4,7 +4,7 @@
 <p align="center">
   <img src="Images/efficient_frontier.png" alt="Logo">
   <br>
-  </b> Resulting portfolios visualised in expected returns - risk space. Optimisation is performed on three different objective functions; minimum variance, maximum returns and maximum Sharpe ratio, following the procedure below on various U.S equities.
+  </b> Resulting portfolios visualised in expected returns - risk space. Optimisation is performed on three different objective functions; minimum variance, maximum returns and maximum Sharpe ratio, following the procedure outlined below on various U.S equities. Each objective presents a convex function to optimised, solved using Sequential Least Squares Programming (SLSQP) methods within Python.
 </p>
 
 ### 1. Expected Portfolio Return
@@ -113,33 +113,6 @@ $$
 \boldsymbol{w}^\top\boldsymbol{\mu}
 }
 $$
-
-subject to the portfolio constraints.
-
-This objective allocates capital to maximise expected return without directly penalising portfolio volatility. Under long-only allocation bounds, the solution tends to favour assets with the highest estimated expected returns, subject to the permitted allocation limits.
-
-### 4. Summary of Optimisation Objectives
-
-| Objective | Optimisation function | Primary goal |
-|---|---|---|
-| Maximum Sharpe | Maximise \((R_p-r_f)/\sigma_p\) | Maximise risk-adjusted return |
-| Minimum variance | Minimise \(\boldsymbol{w}^\top\Sigma\boldsymbol{w}\) | Minimise portfolio risk |
-| Maximum return | Maximise \(\boldsymbol{w}^\top\boldsymbol{\mu}\) | Maximise expected return |
-
-### 5. Numerical Optimisation
-
-The portfolio optimisation problem can be solved numerically using constrained optimisation algorithms such as Sequential Least Squares Programming (SLSQP).
-
-The optimisation procedure is:
-
-1. Estimate expected asset returns and the covariance matrix from historical price data.
-2. Annualise the estimates consistently.
-3. Define the portfolio constraints, including full investment and individual asset bounds.
-4. Select the desired objective function.
-5. Solve for the optimal portfolio weights.
-6. Calculate the resulting expected return, volatility and Sharpe ratio.
-
-The resulting portfolios can be compared in risk-return space and used to construct the efficient frontier, illustrating the trade-off between expected return and portfolio risk.
 
 <h1 align="center">Theoretical Paths</h1>
 
