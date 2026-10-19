@@ -114,7 +114,7 @@ This objective prioritises the minimisation of portfolio risk rather than higher
 The maximum expected return portfolio solves:
 
 $$
-\boxed{max_{\boldsymbol{w}} \boldsymbol{w}^{\top}\boldsymbol{\mu}}
+\max_{\boldsymbol{w}} \boldsymbol{w}^{\top}\boldsymbol{\mu}
 $$
 
 This objective aims to find the weights that maximise expected returns.
