@@ -2,7 +2,7 @@
 <h1 align="center">Portfolio Optimisation</h1>
 
 <p align="center">
-  <img src="Images/efficient_frontier.png" alt="Logo">
+  <img src="Images/frontier.png" alt="Logo">
   <br>
   </b> Resulting portfolios visualised in expected returns - risk space. Optimisation is performed on three different objective functions; minimum variance, maximum returns and maximum Sharpe ratio, following the procedure outlined below on various U.S. equities. Each objective presents a convex function to optimised, solved using Sequential Least Squares Programming (SLSQP) methods within Python.
 </p>
@@ -124,5 +124,5 @@ This objective aims to find the weights that maximise expected returns.
 The following plot displays the theoretical wealth paths for the optimised portfolio under the different objective functions in retrospect (likely to fail out of sample due to overfitting, ill-conditioned covariance matrix makes optimised results highly dependent to sampled period).
 
 <p align="center">
-  <img src="Images/portfolio_paths.png" alt="Logo">
+  <img src="Images/paths.png" alt="Logo">
 </p>
