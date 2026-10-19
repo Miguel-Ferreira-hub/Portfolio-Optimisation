@@ -67,11 +67,13 @@ $$
 \qquad \forall i
 $$
 
-$\leq w_{\max}$ here is set to a maximum of 10% capital allocation to mitigate extreme allocation to one asset.
+$w_{\max}$ here is set to a maximum of 10% capital allocation to mitigate extreme allocation to one asset.
 
-### 3. Portfolio Optimisation Objectives
+### 4. Portfolio Optimisation Objectives
 
-#### 3.1 Maximum Sharpe Ratio
+#### 4.1 Maximum Sharpe Ratio
+
+Let $\r_f$ be the risk-free rate.
 
 $$
 S(\boldsymbol{w}) =
@@ -93,7 +95,7 @@ $$
 
 This objective identifies the portfolio offering the highest expected excess return per unit of risk.
 
-#### 3.2 Minimum Variance
+#### 4.2 Minimum Variance
 
 The minimum variance portfolio minimises total portfolio risk:
 
@@ -107,7 +109,7 @@ $$
 
 This objective prioritises the minimisation of portfolio risk rather than higher returns.
 
-#### 3.3 Maximum Expected Return
+#### 4.3 Maximum Expected Return
 
 The maximum expected return portfolio solves:
 
