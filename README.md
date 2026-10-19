@@ -67,7 +67,7 @@ $$
 \qquad \forall i
 $$
 
-$w_{\max}$ here is set to a maximum of 10% capital allocation to mitigate extreme allocation to one asset.
+$w_{\max}$ here is set to a maximum of 10% capital allocation to mitigate extreme allocations to one asset.
 
 ### 4. Portfolio Optimisation Objectives
 
@@ -86,7 +86,7 @@ The maximum Sharpe ratio portfolio is obtained by solving:
 
 $$
 \boxed{
-\max_{\boldsymbol{w}}\;
+\max_{\boldsymbol{w}}\
 \frac{\boldsymbol{w}^\top\boldsymbol{\mu} - r_f}
 {\sqrt{\boldsymbol{w}^\top
 \boldsymbol{\Sigma}\boldsymbol{w}}}
@@ -101,7 +101,7 @@ The minimum variance portfolio minimises total portfolio risk:
 
 $$
 \boxed{
-\min_{\boldsymbol{w}}\;
+\min_{\boldsymbol{w}}\
 \boldsymbol{w}^\top
 \boldsymbol{\Sigma}\boldsymbol{w}
 }
@@ -115,7 +115,7 @@ The maximum expected return portfolio solves:
 
 $$
 \boxed{
-\max_{\boldsymbol{w}}\;
+\max_{\boldsymbol{w}}\
 \boldsymbol{w}^\top\boldsymbol{\mu}
 }
 $$
