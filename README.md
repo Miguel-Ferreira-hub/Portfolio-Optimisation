@@ -115,8 +115,8 @@ The maximum expected return portfolio solves:
 
 $$
 \boxed{
-\max_{\boldsymbol{w}}\
-\boldsymbol{w}^\top\boldsymbol{\mu}
+\max_{\boldsymbol{w}} \quad
+\boldsymbol{w}^{\top}\boldsymbol{\mu}
 }
 $$
 
