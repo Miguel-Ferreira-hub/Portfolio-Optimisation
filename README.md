@@ -18,9 +18,9 @@ $$
 
 where:
 
-- \(w_i\) is the proportion of capital allocated to asset \(i\).
-- \(\mu_i\) is the expected return of asset \(i\).
-- \(n\) is the number of assets.
+- $w_i$ is the proportion of capital allocated to asset $i$.
+- $\mu_i$ is the expected return of asset $i$.
+- $n$ is the number of assets.
 
 For historical daily returns, the expected returns can be estimated using the sample mean and annualised:
 
