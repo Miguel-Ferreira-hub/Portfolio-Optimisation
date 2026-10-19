@@ -124,7 +124,7 @@ This objective aims to find the weights that maximise expected returns.
 
 <h1 align="center">Theoretical Paths</h1>
 
-The following plot displays the theoretical wealth paths for the optimised portfolio under the different objective functions in retrospect (likely to fail out of sample due to overfitting).
+The following plot displays the theoretical wealth paths for the optimised portfolio under the different objective functions in retrospect (likely to fail out of sample due to overfitting, ill-conditioned covariance matrix makes optimised results highly dependent to sampled period).
 
 <p align="center">
   <img src="Images/portfolio_paths.png" alt="Logo">
