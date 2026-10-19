@@ -47,8 +47,6 @@ $$
 \boldsymbol{\Sigma}\boldsymbol{w}}
 $$
 
-The covariance matrix captures both individual asset risk and the dependence between assets. Consequently, portfolio risk depends not only on the volatility of each asset but also on their correlations.
-
 Using historical daily returns, annualised covariance is estimated as:
 
 $$
